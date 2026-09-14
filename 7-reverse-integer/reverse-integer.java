@@ -1,7 +1,6 @@
 import java.util.*;
 class Solution {
     public int reverse(int x) {
-       Scanner sc = new Scanner(System.in);
     int reverseNum = 0;
        while(x!=0){
         int lastdigit = x%10;
